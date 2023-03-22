@@ -1,16 +1,17 @@
 import Link from 'next/link';
+import utilStyles from '../styles/utils.module.css';
 
 export default function directory(props){
 
     return (
-        <ul>
+        <div class={utilStyles.topNav}>
             {props.items.map((item) => 
-                <li key={item.name}>
+                <a key={item.name}>
                     <Link href={item.ref}>
                         {item.name}
                     </Link> 
-                </li>
+                </a>
             )}
-        </ul>
+        </div>
     );
 }
