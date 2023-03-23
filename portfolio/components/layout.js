@@ -10,7 +10,7 @@ import Directory from '../components/directory';
 
 export default function Layout({ children, home }) {
   return (
-    <div>
+    <div className={utilStyles.layout}>
       <Directory items={navItems}></Directory>
       <Head className={styles.container}>
         <link rel="icon" href="/favicon.ico" />
