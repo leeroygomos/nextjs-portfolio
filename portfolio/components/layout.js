@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
       </header>
-      <main className={styles.container}>{children}</main>
+      <main className={home? styles.container : styles.containerChild}>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>

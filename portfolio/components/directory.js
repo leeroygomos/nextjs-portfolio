@@ -1,14 +1,18 @@
 import Link from 'next/link';
-import utilStyles from '../styles/utils.module.css';
+import React, { useRef } from 'react';
+import navStyles from './directory.module.css';
 
 export default function directory(props){
 
     return (
-        <div class={utilStyles.topNav}>
-            {props.items.map((item) => 
-                <Link href={item.ref}>
-                    {item.name}
-                </Link> 
+        <div class={navStyles.topNav}>
+            {props.items.map((item) => {
+                    const myRef = useRef(item.name);
+                    const executeScroll = () => myRef.current.scrollIntoView();
+                    return (<Link ref={myRef} href={item.ref} onClick={executeScroll}>
+                                {item.name}
+                            </Link>);
+                }
             )}
         </div>
     );
