@@ -6,7 +6,7 @@ import { projectItems } from "../components/constants";
 
 export default function projects(){
     return (
-        <Layout>
+        <Layout className={utilStyles.test}>
             <Head>
                 <title>Projects</title>
             </Head>

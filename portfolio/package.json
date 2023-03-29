@@ -12,6 +12,7 @@
     "@mui/lab": "^5.0.0-alpha.124",
     "@mui/material": "^5.11.14",
     "clsx": "^1.2.1",
+    "framer-motion": "^10.9.2",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
