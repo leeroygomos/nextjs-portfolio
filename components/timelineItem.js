@@ -15,7 +15,7 @@ export default function customizedTimelineItem({title, date, description, icon, 
                 sx={{ m: 'auto 0' }}
                 align="right"
                 variant="body2"
-                color="text.secondary"
+                color="white"
                 >
                 {date}
             </TimelineOppositeContent>
@@ -27,7 +27,7 @@ export default function customizedTimelineItem({title, date, description, icon, 
             <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '20px', px: 2 }}>
-                <Typography variant="h6" component="span">
+                <Typography variant="h6" component="span" color="white">
                     {title}
                 </Typography>
                 <Typography variant="body2">

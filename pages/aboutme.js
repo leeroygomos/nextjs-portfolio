@@ -1,9 +1,11 @@
 import Layout from "../components/layout";
 import Head from 'next/head';
 import utilStyles from '../styles/utils.module.css';
+import Particles from "../components/particles";
 
 export default function aboutme(){
     return (
+        <>
         <Layout displayName="aboutme">
             <Head>
                 <title>About Me</title>
@@ -23,5 +25,7 @@ export default function aboutme(){
                 </p>
             </section>
         </Layout>
+        <Particles></Particles>
+        </>
     );
 }

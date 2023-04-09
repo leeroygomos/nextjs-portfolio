@@ -1,13 +1,14 @@
 import React from 'react';
 import Head from 'next/head';
 import styles from './layout.module.css';
-import Link from 'next/link';
 import { siteTitle, navItems } from '../components/constants';
 import Directory from '../components/directory';
 import { motion } from "framer-motion";
 import Header from './header';
+import { useState } from 'react';
 
 export default function Layout({ children, home }) {
+
   return (
     <>
     <Directory items={navItems}></Directory>

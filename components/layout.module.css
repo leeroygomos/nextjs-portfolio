@@ -10,19 +10,19 @@
   margin: 3rem auto 6rem;
 }
   
-  .backToHome {
-    margin: 3rem;
-  }
+.backToHome {
+  margin: 3rem;
+}
 
-  .layout {
-    background-color: transparent;;
-    height:100vh;
-    display: grid;
-    grid-template-columns: 20% auto;
-    padding: 0 1rem;
-  }
+.layout {
+  background-color: transparent;
+  height:100vh;
+  display: grid;
+  grid-template-columns: 20% auto;
+  padding: 0 1rem;
+}
 
-  .layoutHome {
-    background-color: transparent;;
-    height:100vh;
-  }
+.layoutHome {
+  background-color: transparent;
+  height:100vh;
+}

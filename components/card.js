@@ -9,10 +9,11 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import cardStyles from './card.module.css';
 
 export default function MediaCard({title, description, github, img}) {
   return (
-    <Card sx={{ maxWidth: 400 }}>
+    <Card sx={{ maxWidth: 400 }} className={cardStyles.card}>
       <CardMedia
         sx={{ height: 240 }}
         image={img}

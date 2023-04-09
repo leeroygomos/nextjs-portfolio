@@ -3,9 +3,11 @@ import Head from 'next/head';
 import Card from "../components/card";
 import utilStyles from '../styles/utils.module.css';
 import { projectItems } from "../components/constants";
+import Particles from "../components/particles";
 
 export default function projects(){
     return (
+        <>
         <Layout className={utilStyles.test}>
             <Head>
                 <title>Projects</title>
@@ -21,5 +23,7 @@ export default function projects(){
                 )}
             </div>
         </Layout>
+        <Particles></Particles>
+        </>
     );
 }
