@@ -1,36 +1,6 @@
-.heading2Xl {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
-  }
-  
   .headingMd {
     font-size: 1.2rem;
     line-height: 1.5;
-  }
-  
-  .colorInherit {
-    color: inherit;
-  }
-  
-  .padding1px {
-    padding-top: 1px;
-  }
-  
-  .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .listItem {
-    margin: 0 0 1.25rem;
-  }
-  
-  .lightText {
-    color: #666;
   }
 
   .gridContainer {
@@ -56,7 +26,21 @@
     border-radius: 9999px;
   }
 
-  .header {
+  @media screen and (max-width:940px) {
+    .header {
+      visibility: hidden;
+      display: none;
+    }
+  }
+  @media screen and (min-width:941px){
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .headerHome {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -19,7 +19,7 @@ export default function Header({home}) {
             damping: 20
           }}
         >
-        <header className={utilStyles.header}>
+        <header className={home ? utilStyles.headerHome : utilStyles.header}>
           <Image
               priority
               src="/images/profile.jpg"

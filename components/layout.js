@@ -15,7 +15,7 @@ export default function Layout({ children, home }) {
       <div className={home ? styles.layoutHome : styles.layout}>
         <Head className={styles.container}>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
           <meta name="author" content="Lee Roy Gomos"/>
           <meta name="description" content="Lee Roy Gomos Portfolio"/>
           <meta name="keywords" content="Lee Roy Gomos Portfolio Software Developer Programmer"/>
