@@ -11,24 +11,28 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import cardStyles from './card.module.css';
 
-export default function MediaCard({title, description, github, img}) {
+export default function MediaCard({title, description, github, img, width}) {
   return (
-    <Card sx={{ maxWidth: 400 }} className={cardStyles.card}>
+    <Card sx={{ maxWidth: width, minWidth: width}} className={cardStyles.card}>
       <CardMedia
         sx={{ height: 240 }}
         image={img}
         title={title}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5" component="div" color="white">
           {title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2">
           {description}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" href={github} target="_blank" variant="contained">See on GitHub</Button>
+        {github ? 
+          <Button size="small" href={github} target="_blank" variant="contained">See on GitHub</Button>
+          : <></>  
+        }
+        
       </CardActions>
     </Card>
   );

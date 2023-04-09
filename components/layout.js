@@ -5,12 +5,13 @@ import { siteTitle, navItems } from '../components/constants';
 import Directory from '../components/directory';
 import { motion } from "framer-motion";
 import Header from './header';
-import { useState } from 'react';
+import Particles from "../components/particles";
 
 export default function Layout({ children, home }) {
 
   return (
     <>
+    <Particles></Particles>
     <Directory items={navItems}></Directory>
       <div className={home ? styles.layoutHome : styles.layout}>
         <Head className={styles.container}>

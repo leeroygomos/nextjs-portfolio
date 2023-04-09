@@ -1,12 +1,10 @@
 import Layout from "../components/layout";
 import Head from 'next/head';
 import utilStyles from '../styles/utils.module.css';
-import Particles from "../components/particles";
 
 export default function aboutme(){
     return (
         <>
-        <Particles></Particles>
         <Layout displayName="aboutme">
             <Head>
                 <title>About Me</title>

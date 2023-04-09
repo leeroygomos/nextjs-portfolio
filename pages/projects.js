@@ -3,12 +3,10 @@ import Head from 'next/head';
 import Card from "../components/card";
 import utilStyles from '../styles/utils.module.css';
 import { projectItems } from "../components/constants";
-import Particles from "../components/particles";
 
 export default function projects(){
     return (
         <>
-        <Particles></Particles>
         <Layout className={utilStyles.test}>
             <Head>
                 <title>Projects</title>
@@ -19,7 +17,8 @@ export default function projects(){
                             title={item.title} 
                             description={item.description}
                             github={item.github} 
-                            img={item.img}>
+                            img={item.img}
+                            width={400}>
                         </Card>
                 )}
             </div>

@@ -35,10 +35,10 @@ export default function particles(){
                             mode: "push",
                         },
                         onHover: {
-                            enable: true,
+                            enable: false,
                             mode: "grab",
                         },
-                        resize: false,
+                        resize: true,
                     },
                     modes: {
                         push: {
@@ -57,7 +57,7 @@ export default function particles(){
                     links: {
                         color: "#ffffff",
                         distance: 150,
-                        enable: true,
+                        enable: false,
                         opacity: 0.5,
                         width: 1,
                     },
@@ -71,13 +71,13 @@ export default function particles(){
                             default: "bounce",
                         },
                         random: false,
-                        speed: 5,
+                        speed: 1,
                         straight: false,
                     },
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            area: 1000,
                         },
                         value: 80,
                     },
@@ -85,24 +85,25 @@ export default function particles(){
                         value: 0.5,
                     },
                     shape: {
-                        type: "images",
-                        images: [
-                            {
-                                src: "https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute.png",
-                            },
-                            {
-                                src: "https://static.vecteezy.com/system/resources/previews/009/378/085/original/cute-cartoon-dinosaur-character-free-png.png"
-                            },
-                            {
-                                src: "https://images.vexels.com/media/users/3/196714/isolated/preview/f672a7151e95e139dddd9fad47b64b92-dino-brachisaurus-cute.png"
-                            },
-                            {
-                                src: "https://static.vecteezy.com/system/resources/previews/009/378/067/non_2x/cute-cartoon-dinosaur-character-free-png.png"
-                            }
-                        ],
+                        type: "circle",
+                        // change type to images and uncomment below for dinosaurs
+                        // images: [
+                        //     {
+                        //         src: "https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute.png",
+                        //     },
+                        //     {
+                        //         src: "https://static.vecteezy.com/system/resources/previews/009/378/085/original/cute-cartoon-dinosaur-character-free-png.png"
+                        //     },
+                        //     {
+                        //         src: "https://images.vexels.com/media/users/3/196714/isolated/preview/f672a7151e95e139dddd9fad47b64b92-dino-brachisaurus-cute.png"
+                        //     },
+                        //     {
+                        //         src: "https://static.vecteezy.com/system/resources/previews/009/378/067/non_2x/cute-cartoon-dinosaur-character-free-png.png"
+                        //     }
+                        // ],
                     },
                     size: {
-                        value: { min: 10, max: 50 },
+                        value: { min: 1, max: 5 },
                     },
                 },
                 detectRetina: true,
