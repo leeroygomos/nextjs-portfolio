@@ -7,13 +7,13 @@ import Particles from "../components/particles";
 export default function experience(){
     return (
         <>
+        <Particles></Particles>
         <Layout>
             <Head>
                 <title>Experience</title>
             </Head>
             <CustomizedTimeline items={experienceItems}></CustomizedTimeline>
         </Layout>
-        <Particles></Particles>
         </>
     );
 }

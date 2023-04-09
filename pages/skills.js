@@ -6,6 +6,7 @@ import Particles from "../components/particles";
 export default function skills(){
     return (
         <>
+        <Particles></Particles>
         <Layout displayName="skills">
              <Head>
                  <title>Skills</title>
@@ -16,7 +17,6 @@ export default function skills(){
                  </p>
             </section>
         </Layout>
-        <Particles></Particles>
         </>
     );
 }

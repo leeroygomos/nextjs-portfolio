@@ -6,6 +6,7 @@ import Particles from "../components/particles";
 export default function aboutme(){
     return (
         <>
+        <Particles></Particles>
         <Layout displayName="aboutme">
             <Head>
                 <title>About Me</title>
@@ -25,7 +26,6 @@ export default function aboutme(){
                 </p>
             </section>
         </Layout>
-        <Particles></Particles>
         </>
     );
 }

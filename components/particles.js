@@ -27,7 +27,7 @@ export default function particles(){
                         value: "#0d47a11",
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 170,
                 interactivity: {
                     events: {
                         onClick: {
@@ -36,17 +36,17 @@ export default function particles(){
                         },
                         onHover: {
                             enable: true,
-                            mode: "repulse",
+                            mode: "grab",
                         },
-                        resize: true,
+                        resize: false,
                     },
                     modes: {
                         push: {
-                            quantity: 4,
+                            quantity: 5,
                         },
-                        repulse: {
+                        grab: {
                             distance: 200,
-                            duration: 0.4,
+                            duration: 0.5,
                         },
                     },
                 },
@@ -71,7 +71,7 @@ export default function particles(){
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 3,
                         straight: false,
                     },
                     number: {
@@ -85,10 +85,15 @@ export default function particles(){
                         value: 0.5,
                     },
                     shape: {
-                        type: "circle",
+                        type: "images",
+                        images: [
+                            {
+                                src: "https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute.png",
+                            }
+                        ],
                     },
                     size: {
-                        value: { min: 1, max: 5 },
+                        value: { min: 10, max: 50 },
                     },
                 },
                 detectRetina: true,

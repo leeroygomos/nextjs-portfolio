@@ -8,6 +8,7 @@ import Particles from "../components/particles";
 export default function projects(){
     return (
         <>
+        <Particles></Particles>
         <Layout className={utilStyles.test}>
             <Head>
                 <title>Projects</title>
@@ -23,7 +24,6 @@ export default function projects(){
                 )}
             </div>
         </Layout>
-        <Particles></Particles>
         </>
     );
 }
