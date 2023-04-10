@@ -20,10 +20,10 @@ export default function MediaCard({title, description, github, img, width}) {
         title={title}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div" color="white">
+        <Typography gutterBottom variant="h5" component="div" color="black">
           {title}
         </Typography>
-        <Typography variant="body2">
+        <Typography variant="body2" color="black">
           {description}
         </Typography>
       </CardContent>
