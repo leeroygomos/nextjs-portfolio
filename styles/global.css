@@ -30,3 +30,7 @@ p {
 h2 {
   color: #ffffff;
 }
+
+.MuiCard-root{
+  background: rgba(60, 61, 69, 0.6);
+}
