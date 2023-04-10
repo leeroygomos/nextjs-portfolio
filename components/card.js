@@ -13,7 +13,7 @@ import cardStyles from './card.module.css';
 
 export default function MediaCard({title, description, github, img, width}) {
   return (
-    <Card sx={{ maxWidth: width, minWidth: width}} className={cardStyles.card}>
+    <Card sx={{ maxWidth: width, minWidth: width }} className={cardStyles.card}>
       <CardMedia
         sx={{ height: 240 }}
         image={img}
@@ -30,7 +30,7 @@ export default function MediaCard({title, description, github, img, width}) {
       <CardActions>
         {github ? 
           <Button size="small" href={github} target="_blank" variant="contained">See on GitHub</Button>
-          : <></>  
+          : <></>
         }
         
       </CardActions>
