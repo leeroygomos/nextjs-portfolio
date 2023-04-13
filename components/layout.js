@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import styles from './layout.module.css';
 import { siteTitle, navItems } from '../components/constants';
 import Directory from '../components/directory';

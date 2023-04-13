@@ -9,10 +9,6 @@
   padding: 0 1rem;
   margin: 3rem auto 6rem;
 }
-  
-.backToHome {
-  margin: 3rem;
-}
 
 @media screen and (max-width:940px) {
   .layout {
@@ -21,6 +17,10 @@
     display: flex;
     grid-template-columns: 0% auto;
     padding: 0 1rem;
+    background-image: url("/images/background.jpg");
+    background-position: "center";
+    background-size: "cover";
+    background-repeat: no-repeat;
   }
 }
 @media screen and (min-width:941px){
@@ -30,10 +30,15 @@
     display: grid;
     grid-template-columns: 20% auto;
     padding: 0 1rem;
+    background-image: url("/images/background.jpg");
+    background-position: "center";
+    background-size: "cover";
+    background-repeat: no-repeat;
   }
 }
 
 .layoutHome {
   background-color: transparent;
   height:100vh;
+  background-image: url("/images/background.jpg");
 }
