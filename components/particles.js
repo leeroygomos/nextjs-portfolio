@@ -85,25 +85,25 @@ export default function particles(){
                         value: 0.5,
                     },
                     shape: {
-                        type: "images",
+                        type: "circle",
                         // change type to images and uncomment below for dinosaurs
-                        images: [
-                            {
-                                src: "https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute.png",
-                            },
-                            {
-                                src: "https://static.vecteezy.com/system/resources/previews/009/378/085/original/cute-cartoon-dinosaur-character-free-png.png"
-                            },
-                            {
-                                src: "https://images.vexels.com/media/users/3/196714/isolated/preview/f672a7151e95e139dddd9fad47b64b92-dino-brachisaurus-cute.png"
-                            },
-                            {
-                                src: "https://static.vecteezy.com/system/resources/previews/009/378/067/non_2x/cute-cartoon-dinosaur-character-free-png.png"
-                            }
-                        ],
+                        // images: [
+                        //     {
+                        //         src: "https://images.vexels.com/media/users/3/196998/isolated/preview/3421fa2cd778f85dfc33c72728b57d1e-tyrannosaurus-dino-cute.png",
+                        //     },
+                        //     {
+                        //         src: "https://static.vecteezy.com/system/resources/previews/009/378/085/original/cute-cartoon-dinosaur-character-free-png.png"
+                        //     },
+                        //     {
+                        //         src: "https://images.vexels.com/media/users/3/196714/isolated/preview/f672a7151e95e139dddd9fad47b64b92-dino-brachisaurus-cute.png"
+                        //     },
+                        //     {
+                        //         src: "https://static.vecteezy.com/system/resources/previews/009/378/067/non_2x/cute-cartoon-dinosaur-character-free-png.png"
+                        //     }
+                        // ],
                     },
                     size: {
-                        value: { min: 1, max: 50 },
+                        value: { min: 1, max: 5 },
                     },
                 },
                 detectRetina: true,
