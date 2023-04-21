@@ -1,5 +1,4 @@
 html {
-  /* background-image: url('/background.jpg'); */
   background-color: #051622;
 }
 body {
@@ -16,7 +15,6 @@ a {
 
 a:hover {
   color: #FB8122;
-  /* text-decoration: underline; */
 }
 
 img {

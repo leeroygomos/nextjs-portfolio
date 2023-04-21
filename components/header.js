@@ -3,22 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {IconGithub, IconLinkedin} from '../components/utils';
 import { name } from '../components/constants';
-import { motion } from "framer-motion";
 
 export default function Header({home}) {
   return (
     <>
-      {/* {home && (<p>TEST</p>)} */}
-      <motion.div
-          initial={{ x: "50vh", opacity: 0 }}
-          animate={{ x: 0, opacity: 1}}
-          exit={{ x: "-50vh", opacity: 0 }}
-          transition={{
-            type: "tween",
-            stiffness: 260,
-            damping: 20
-          }}
-        >
         <header className={home ? utilStyles.headerHome : utilStyles.header}>
           <Image
               priority
@@ -34,7 +22,6 @@ export default function Header({home}) {
               <Link href="https://www.linkedin.com/in/lee-roy-gomos-6077b1125/" target="_blank"><IconLinkedin></IconLinkedin></Link>
           </div>
         </header>
-      </motion.div>
     </>
   );
 }
