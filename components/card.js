@@ -13,8 +13,9 @@ import cardStyles from './card.module.css';
 
 export default function MediaCard({title, description, github, img, width}) {
   return (
-    <Card sx={{ maxWidth: width, minWidth: width }} className={cardStyles.card}>
+    <Card variant="outlined" sx={{ maxWidth: width, minWidth: width }} className={cardStyles.card} style={{backgroundColor: "rgba(18, 18, 18, 0.6)"}}>
       <CardMedia
+        component="img"
         sx={{ height: 240 }}
         image={img}
         title={title}
@@ -23,7 +24,7 @@ export default function MediaCard({title, description, github, img, width}) {
         <Typography gutterBottom variant="h5" component="div" color="black">
           {title}
         </Typography>
-        <Typography variant="body2" color="black">
+        <Typography variant="body2" color="text.secondary">
           {description}
         </Typography>
       </CardContent>
