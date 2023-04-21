@@ -18,17 +18,16 @@ export default function aboutme(){
         </div>
         <section className={utilStyles.headingMd}>
             <p>
-                Beginning my journey in 2016, I studied Computer Science at Simon Fraser University. Throughout my undergradute career, 
-                I took interest into many aspects of computing, specifically in web development, algorithms, and artificial intelligence.
+                Beginning my journey in 2016, I studied Computer Science at Simon Fraser University. 
+                Throughout my undergraduate career, I took an interest in many aspects of computing, specifically in web development, algorithms, and artificial intelligence.
             </p>
             <p>
-                I began my professional career at Traction on Demand in 2021, working with a multitude of different clients on
-                widely differing projects, from technical debt remediations to custom implementations. After the Traction on Demand acquisition in 2022,
-                I worked as a Technical Consultant at Salesforce.
+                I began my professional career at Traction on Demand in 2021, working with a multitude of different clients on widely differing projects, from technical debt remediations to custom implementations. 
+                After the Traction on Demand acquisition in 2022, I worked as a Technical Consultant at Salesforce.
             </p>
             <p>
-                I am always looking to expand my knowledge and learn new things such as this website, which I rebuilt from scratch in order to learn React with Next.js. 
-                I am currently open to all software development opportunies not limited to Salesforce development. 
+                I am always looking to expand my knowledge and learn new things such as this website, which I rebuilt from scratch to learn React with Next.js. 
+                I am currently open to all software development opportunities not limited to Salesforce development.
             </p>
         </section>
 
