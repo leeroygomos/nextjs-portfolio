@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
 html {
   background-color: #051622;
 }
@@ -6,11 +8,13 @@ body {
   margin: 0;
   line-height: 1.2;
   font-size: 16px;
+  font-family: 'Bruno Ace', cursive;
 }
 
 a {
   color: #E1E2E2;
   text-decoration: none;
+  font-family: 'Bruno Ace', cursive;
 }
 
 a:hover {
@@ -24,8 +28,10 @@ img {
 
 p {
   color: #E6E2DD;
+  font-family: 'Bruno Ace', cursive;
 }
 
 h2 {
   color: #ffffff;
+  font-family: 'Bruno Ace', cursive;
 }
