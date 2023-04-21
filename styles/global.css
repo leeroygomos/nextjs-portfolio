@@ -2,6 +2,7 @@
 
 html {
   background-color: #051622;
+  overflow: hidden;
 }
 body {
   padding: 0;
@@ -18,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #FB8122;
+  color: #E31C79;
 }
 
 img {
@@ -31,7 +32,7 @@ p {
   font-family: 'Bruno Ace', cursive;
 }
 
-h2 {
+h2,h3 {
   color: #ffffff;
   font-family: 'Bruno Ace', cursive;
 }

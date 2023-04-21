@@ -78,3 +78,68 @@ export const certifications = [
         img: '/images/certifications/admin.png'
     },
 ];
+
+export const languages = [
+    {
+        name: 'Apex',
+        rating: 8,
+    },
+    {
+        name: 'Javascript',
+        rating: 7,
+    },
+    {
+        name: 'SOQL',
+        rating: 7
+    },
+    {
+        name: 'HTML/CSS',
+        rating: 6,
+    },
+    {
+        name: 'Python',
+        rating: 6,
+    },
+    {
+        name: 'C/C++',
+        rating: 5,
+    },
+];
+
+export const frameworks = [
+    {
+        name: 'Lightning Web Components',
+        rating: 7,
+    },
+    {
+        name: 'Express.js',
+        rating: 6,
+    },
+    {
+        name: 'React',
+        rating: 5,
+    },
+    {
+        name: 'Next.js',
+        rating: 5,
+    },
+    {
+        name: 'Django',
+        rating: 5,
+    },
+];
+
+export const technologies = [
+    {
+        name: 'Salesforce',
+        rating: 9,
+    },
+    {
+        name: 'Node.js',
+        rating: 8,
+    },
+    {
+        name: 'Git',
+        rating: 8,
+    },
+];

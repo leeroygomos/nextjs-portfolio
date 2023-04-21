@@ -15,4 +15,5 @@
 .topNav a:hover {
     background-color: #ffffff;
     color: black;
+    cursor: pointer;
 }
