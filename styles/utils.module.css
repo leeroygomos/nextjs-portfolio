@@ -22,6 +22,13 @@
     color: #bd7720;
   }
 
+  .gridContainerButtons {
+    display: flex;
+    width: 100%;
+    grid-gap: 0;
+    padding: 0;
+  }
+
   .borderCircle {
     border-radius: 9999px;
   }

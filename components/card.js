@@ -10,8 +10,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import cardStyles from './card.module.css';
+import utilStyles from '../styles/utils.module.css';
 
-export default function MediaCard({title, description, github, img, width}) {
+export default function MediaCard({title, description, github, link, img, width}) {
   return (
     <Card variant="outlined" sx={{ maxWidth: width, minWidth: width }} className={cardStyles.card} style={{backgroundColor: "rgba(18, 18, 18, 0.6)"}}>
       <CardMedia
@@ -28,13 +29,18 @@ export default function MediaCard({title, description, github, img, width}) {
           {description}
         </Typography>
       </CardContent>
-      <CardActions>
-        {github ? 
-          <Button size="small" href={github} target="_blank" variant="contained">See on GitHub</Button>
-          : <></>
+      <div className={utilStyles.gridContainerButtons}>
+        {link ?
+          <CardActions>
+              <Button size="small" href={link} target="_blank" variant="contained">View app!</Button>
+          </CardActions> : <></>
         }
-        
-      </CardActions>
+        {github ?
+          <CardActions>
+              <Button size="small" href={github} target="_blank" variant="contained">See on Github</Button>
+          </CardActions> : <></>
+        }
+      </div>
     </Card>
   );
 }

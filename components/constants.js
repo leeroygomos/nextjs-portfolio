@@ -21,6 +21,7 @@ export const projectItems = [
     {
         title: "FitnessBuddy", 
         github: "https://github.com/leeroygomos/fitnessbuddy", 
+        link: "https://fitnessbuddy.herokuapp.com/",
         description: "A fitness web application developed using Node.js, Express.js and Heroku. Key features include finding nearby gyms, nutrition facts, exercises search for different muscles, and a realtime chatroom.", 
         img: "/images/projects/fitnessbuddy.png"
     },

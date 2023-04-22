@@ -13,6 +13,7 @@ export default function projects(){
             {projectItems.map((item) => 
                     <Card 
                         title={item.title} 
+                        link={item.link}
                         description={item.description}
                         github={item.github} 
                         img={item.img}
