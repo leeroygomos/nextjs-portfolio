@@ -26,11 +26,11 @@ export default function customizedTimelineItem({title, date, description, icon, 
             </TimelineDot>
             <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent sx={{ py: '20px', px: 2 }}>
-                <Typography variant="h6" component="span" color="white">
+            <TimelineContent sx={{ py: '50px', px: 2 }}>
+                <Typography variant="h5" color="white">
                     {title}
                 </Typography>
-                <Typography variant="body2">
+                <Typography variant="body1">
                     {description}
                 </Typography>
             </TimelineContent>
