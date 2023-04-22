@@ -12,8 +12,8 @@ export default function Header({home}) {
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={200}
+              width={200}
               alt=""
             />
           <h1 className={utilStyles.heading}>{name}</h1>
@@ -21,7 +21,13 @@ export default function Header({home}) {
               <Link href="https://github.com/leeroygomos" target="_blank"><IconGithub></IconGithub></Link>
               <Link href="https://www.linkedin.com/in/lee-roy-gomos-6077b1125/" target="_blank"><IconLinkedin></IconLinkedin></Link>
           </div>
+          {home ? <p className={utilStyles.headingMd}>
+            Hello, my name is Lee Roy and I am a former Technical Consultant and Developer at Salesforce.
+          </p> : <></>
+          }
+
         </header>
+
     </>
   );
 }

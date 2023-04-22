@@ -3,13 +3,11 @@ import Head from 'next/head';
 import styles from './layout.module.css';
 import { siteTitle } from './constants';
 import Header from './header';
-import Particles from "../components/particles";
 
 export default function Layout({ children, page }) {
 
   return (
     <>
-    <Particles></Particles>
       <div className={(page == null || page == '') ? styles.layoutHome : styles.layout}>
         <Head className={styles.container}>
           <link rel="icon" href="/favicon.ico" />

@@ -3,6 +3,10 @@
 html {
   background-color: #051622;
   overflow: hidden;
+  background-image: url("/images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 body {
   padding: 0;
