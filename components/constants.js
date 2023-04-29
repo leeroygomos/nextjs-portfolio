@@ -22,15 +22,14 @@ export const projectItems = [
         title: "FitnessBuddy", 
         github: "https://github.com/leeroygomos/fitnessbuddy", 
         link: "https://fitnessbuddy.herokuapp.com/",
-        description: "A fitness web application developed using Node.js, Express.js and Heroku. Key features include finding nearby gyms, nutrition facts, exercises search for different muscles, and a realtime chatroom.", 
+        description: "A fitness web application built with Node.js, Express.js, PostgreSQL and Heroku. Key features include finding nearby gyms via Google Maps API, nutrition facts lookup via Nutritionix API, exercises search via wger API, and a realtime chatroom via Socket IO.", 
         img: "/images/projects/fitnessbuddy.png"
     },
     {
         title: "To Do App", 
         github: "https://github.com/leeroygomos/todo-app", 
-        // link: "https://fitnessbuddy.herokuapp.com/",
-        description: "A simple to do app built using React Native. Features include ", 
-        img: "/images/projects/fitnessbuddy.png"
+        description: "A simple to do mobile app built using React Native. Features include local data storage via AsyncStorage, drag and drop functionality for list organization, confetti animation when all tasks are completed, and random to do tasks via BoredAPI.", 
+        img: "/images/projects/todoapp.png"
     },
     {
         title: "Voluntutor", 
