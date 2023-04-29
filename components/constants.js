@@ -26,6 +26,13 @@ export const projectItems = [
         img: "/images/projects/fitnessbuddy.png"
     },
     {
+        title: "To Do App", 
+        github: "https://github.com/leeroygomos/todo-app", 
+        // link: "https://fitnessbuddy.herokuapp.com/",
+        description: "A simple to do app built using React Native. Features include ", 
+        img: "/images/projects/fitnessbuddy.png"
+    },
+    {
         title: "Voluntutor", 
         github: "https://github.com/leeroygomos/voluntutor", 
         description: "A tutoring web application which used AWS Elastic Beanstalk for deployment and was developed using Python with Django as the web framework. It also used Amazon RDS for PostgreSQL as the database engine and Amazon S3 cloud storage for static files.", 
