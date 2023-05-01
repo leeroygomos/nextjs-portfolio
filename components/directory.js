@@ -4,9 +4,9 @@ import navStyles from './directory.module.css';
 export default function directory(props){
 
     return (
-        <div class={navStyles.topNav}>
+        <div className={navStyles.topNav}>
             {props.items.map((item) => {
-                    return (<a onClick={() => props.data(item.ref)}>
+                    return (<a key={item.name} onClick={() => props.data(item.ref)}>
                                 {item.name}
                             </a>);
                 }

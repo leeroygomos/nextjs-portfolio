@@ -5,7 +5,7 @@ import Experience from '../components/experience';
 import Projects from '../components/projects';
 import Skills from '../components/skills';
 import Directory from '../components/directory';
-import { useState, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import { navItems } from '../components/constants';
 import utilStyles from '../styles/utils.module.css';
 import Joke from '../components/joke';
@@ -36,18 +36,21 @@ export default function Home() {
   }
 
   const getJoke = async () => {
-    fetch("https://v2.jokeapi.dev/joke/Programming")
-        .then(res => res.json())
-        .then(data => {setSetup(data.setup); setDelivery(data.delivery);});
+    try{
+      let data = await (await fetch("https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart")).json();
+      setSetup(data.setup); 
+      setDelivery(data.delivery);
+    }
+    catch(err){
+      console.log(err.message);
+    }
   }
 
-  useEffect(() => {
-    getJoke();
-  }, []);
+  useMemo(() => getJoke(),[]);
 
   return (
     <>
-    <div class={utilStyles.everything}>
+    <div className={utilStyles.everything}>
       <Directory items={navItems} data={updatePage}></Directory>
       <AnimatePresence mode="wait" initial={false}>
         <motion.div
