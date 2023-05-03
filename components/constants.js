@@ -32,6 +32,14 @@ export const projectItems = [
         img: "/images/projects/todoapp.png"
     },
     {
+        title: "crappy bird",
+        // github: "",
+        link: "https://play.unity.com/mg/other/build-xgn",
+        altText: "Play now!",
+        description: "A flappy bird clone creating using Unity!",
+        img: "/images/projects/crappybird.png"
+    },
+    {
         title: "Voluntutor", 
         github: "https://github.com/leeroygomos/voluntutor", 
         description: "A tutoring web application which used AWS Elastic Beanstalk for deployment and was developed using Python with Django as the web framework. It also used Amazon RDS for PostgreSQL as the database engine and Amazon S3 cloud storage for static files.", 

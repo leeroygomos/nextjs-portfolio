@@ -17,6 +17,7 @@ export default function projects(){
                         description={item.description}
                         github={item.github} 
                         img={item.img}
+                        altText={item.altText}
                         width={400}>
                     </Card>
             )}

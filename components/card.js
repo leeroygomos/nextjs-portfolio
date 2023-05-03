@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 import cardStyles from './card.module.css';
 import utilStyles from '../styles/utils.module.css';
 
-export default function MediaCard({title, description, github, link, img, width}) {
+export default function MediaCard({title, description, github, link, altText, img, width}) {
   return (
     <Card variant="outlined" sx={{ maxWidth: width, minWidth: width }} className={cardStyles.card} style={{backgroundColor: "rgba(18, 18, 18, 0.6)"}}>
       <CardMedia
@@ -32,7 +32,7 @@ export default function MediaCard({title, description, github, link, img, width}
       <div className={utilStyles.gridContainerButtons}>
         {link ?
           <CardActions>
-              <Button size="small" href={link} target="_blank" variant="contained">View app!</Button>
+              <Button size="small" href={link} target="_blank" variant="contained">{altText ? altText: "View app!"}</Button>
           </CardActions> : <></>
         }
         {github ?
