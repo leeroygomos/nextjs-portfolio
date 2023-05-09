@@ -19,17 +19,17 @@ export const experienceItems = [
 
 export const projectItems = [
     {
+        title: "Online Code Editor", 
+        github: "https://github.com/leeroygomos/codeeditor", 
+        description: "A full stack web application with a React frontend and Nodejs/Expressjs backend. Docker is used to containerize all dependencies in order to execute different languages on the server. Currently supports Javascript, Python3, and C++.", 
+        img: "/images/projects/codeeditor.png"
+    },
+    {
         title: "FitnessBuddy", 
         github: "https://github.com/leeroygomos/fitnessbuddy", 
         link: "https://fitnessbuddy.herokuapp.com/",
         description: "A fitness web application built with Node.js, Express.js, PostgreSQL and Heroku. Key features include finding nearby gyms via Google Maps API, nutrition facts lookup via Nutritionix API, exercises search via wger API, and a realtime chatroom via Socket IO.", 
         img: "/images/projects/fitnessbuddy.png"
-    },
-    {
-        title: "To Do App", 
-        github: "https://github.com/leeroygomos/todo-app", 
-        description: "A simple to do mobile app built using React Native. Features include local data storage via AsyncStorage, drag and drop functionality for list organization, confetti animation when all tasks are completed, and random to do tasks via BoredAPI.", 
-        img: "/images/projects/todoapp.png"
     },
     {
         title: "crappy bird",
@@ -38,6 +38,12 @@ export const projectItems = [
         altText: "Play now!",
         description: "A flappy bird clone creating using Unity!",
         img: "/images/projects/crappybird.png"
+    },
+    {
+        title: "To Do App", 
+        github: "https://github.com/leeroygomos/todo-app", 
+        description: "A simple to do mobile app built using React Native. Features include local data storage via AsyncStorage, drag and drop functionality for list organization, confetti animation when all tasks are completed, and random to do tasks via BoredAPI.", 
+        img: "/images/projects/todoapp.png"
     },
     {
         title: "Voluntutor", 
