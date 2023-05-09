@@ -21,6 +21,7 @@ export const projectItems = [
     {
         title: "Online Code Editor", 
         github: "https://github.com/leeroygomos/codeeditor", 
+        link: "https://online-code-editor.herokuapp.com/",
         description: "A full stack web application with a React frontend and Nodejs/Expressjs backend. Docker is used to containerize all dependencies in order to execute different languages on the server. Currently supports Javascript, Python3, and C++.", 
         img: "/images/projects/codeeditor.png"
     },
