@@ -131,19 +131,15 @@ export const languages = [
 export const frameworks = [
     {
         name: 'Lightning Web Components',
-        rating: 7,
+        rating: 8,
     },
     {
         name: 'Express.js',
-        rating: 6,
+        rating: 7,
     },
     {
         name: 'React',
-        rating: 5,
-    },
-    {
-        name: 'Next.js',
-        rating: 5,
+        rating: 7,
     },
     {
         name: 'Django',

@@ -4,7 +4,7 @@ import Particles from "../components/particles";
 export default function App({ Component, pageProps }) {
     return (
         <>
-        <Particles></Particles>
+        {/* <Particles></Particles> */}
         <Component {...pageProps} />
         </>
     );
